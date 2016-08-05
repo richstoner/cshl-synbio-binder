@@ -16,6 +16,11 @@ RUN git clone https://github.com/VoigtLab/dnaplotlib
 WORKDIR dnaplotlib
 RUN python setup.py install
 
+# install seqprpe
+RUN git clone https://github.com/jstjohn/SeqPrep.git
+WORKDIR SeqPrep
+RUN make
+
 # return to base directory
 WORKDIR /home/jovyan/work
 
