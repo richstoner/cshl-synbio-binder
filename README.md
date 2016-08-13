@@ -15,15 +15,15 @@ If you want to learn more about the mybinder project, go here: http://mybinder.o
 
 This binder is organized with the following structure:
 
-### CSHLSynBio2016 
+## CSHLSynBio2016 
 
 This folder contains code developed through the CSHL Synthetic Biologicy Course in 2016. Inside, you'll find...
 
 <hr>
 
-### ./FinalProject
+## ./FinalProject
 
-#### Project Overview
+### Project Overview
 
 This project was designed to evaluate the feasiblity of using a TXTL-CRISPRi system to characterize the impact guide source and location on respression in a simple system. Ideally, we'd like to explore the kinetics of the CRISPR/cas9 RNP binding at a very fine time scale, but that will require more method development beyond the scope of this two week course. ;)
 
@@ -40,14 +40,14 @@ The general worklow:
 5) Analyze data (this part may not make it into this notebook - running out of time for the course)
 
 
-#### An interactive model of TXTL CRISPRi-mediated knockdown of p70a-deGFP expression
+### An interactive model of TXTL CRISPRi-mediated knockdown of p70a-deGFP expression
 
 This code models a TXTL CRISPRi system with a deGFP reporter. This model covers both plasmid-based and static concentrations of dCas9 in TXTL solution, as well as dna-based and direct RNA introduction of the guide RNA. 
 
 <small><b>Packages used: Scipy, pandas, jupyterwidgets</b></small>
 
 
-#### Experimental design and layout for a series of TXTL CRISPRi reactions, using a LabCyte Echo 550 liquidhandler
+### Experimental design and layout for a series of TXTL CRISPRi reactions, using a LabCyte Echo 550 liquidhandler
 
 This code takes a series of input parameters (starting concentration ranges, desired experimental conditions, reaction volumes, etc) and generates the necessary preparatory files for creating the source plate from stock solutions, the final sample list, and every discrete transfer in a format ready for the liquidhandler.
 
@@ -57,12 +57,12 @@ This code also allows us to estimate how much volume of each reagent will be use
 
 <hr>
 
-### ./Tools
+## ./Tools
 
 In this folder, you'll find a variety of tools developed throughout the course for a variety of different modules. Each is reasonably self-contained. 
 
 
-#### Type 1 CRISPR/cas3 guide design tool
+### Type 1 CRISPR/cas3 guide design tool
 
 This code parses a genback/APE file, displays the plasmid, locates 4 PAM sequences, extracts all potential Type 1 / Cas3 guides, and then verifies these are the same guides that were used in a piece of primary literature [1]. This code does not make any attempt to score the guides.
 
@@ -71,7 +71,7 @@ Thanks to Chase Beisel and Michelle Luo for providing guidance on this process.
 <small><b>Packages used: Coral, pandas</b></small>
 
 
-#### TXTL model of GFP expression
+### TXTL model of GFP expression
 
 This code models a simple TXTL system with a p70a-deGFP reporter plasmid driven by a p70a sigma factor present in the TXTL mixture. We then performed the real experiment and then compared the real-world measures of GFP concentration against the model itself.
 
@@ -93,18 +93,18 @@ Thanks to Mary Dunlop and Nick Rossi for providing guidance on this process.
 
 This code walks through how to create replace a specific gene of interest in one plasmid with another gene from a donor plasmid using a golden gate assembly technique. 
 
-Thanks to Michael Smanski for providing guidance on this process.
+Thanks to Mike and Suzie Hsu for providing guidance on this process.
 
 <small><b>Packages used: coral, pandas</b></small>
 
 
-### Setting up CRISPR TXTL experiment on a LabCyte Echo
+### Setting up CRISPR TXTL experiment for a LabCyte Echo
 
 This code is similar to the Echo code described above. It takes a series of inputs, calculates required volumes, and generates the necessary plating scripts. 
 
 This specific example demonstrates how to craft a complex set of conditions for conducting a CRISPR TXTL experiment. Here, we intend to look at differences between single-stranded and double-stranded DNA used to generate guide RNA for dCas9-mediated repression of a deGFP plasmid. 
 
-Thanks to Linda Damore, Alex & John from Labcyte for providing guidance on this process.
+Thanks to Linda Damore and Alex & John from Labcyte for providing guidance on this process.
 
 <small><b>Packages used: pandas</b></small>
 
