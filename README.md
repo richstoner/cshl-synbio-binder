@@ -1,4 +1,4 @@
-# Another example Binder with a Dockerfile
+# CSHL Synthetic Biology 2016 
 
 [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/richstoner/cshl-synbio-binder)
 
