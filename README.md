@@ -10,7 +10,6 @@ To use this binder, click on the badge above or go to http://mybinder.org/repo/r
 If you want to learn more about the mybinder project, go here: http://mybinder.org/ . Many thanks to the [Freeman lab](http://thefreemanlab.com/) @ Janelia Farm for providing computational resources for this project.
 
 
-
 ## Table of Contents
 
 This binder is organized with the following structure:
@@ -98,6 +97,13 @@ Thanks to Mike and Suzie Hsu for providing guidance on this process.
 <small><b>Packages used: coral, pandas</b></small>
 
 
+### Rendering an annotated gene using dnaplotlib
+
+This code walks through how to create an annotated gene figure using various components from SBOL. Here we show a proposed modification to a straightforward mechanism in an effort to increase the experssion of the eGFP CDS.
+
+<small><b>Packages used: dnaplotlib</b></small>
+
+
 ### Setting up CRISPR TXTL experiment for a LabCyte Echo
 
 This code is similar to the Echo code described above. It takes a series of inputs, calculates required volumes, and generates the necessary plating scripts. 
@@ -148,7 +154,7 @@ This binder is based off of the jupyter/datascience docker stack. It was modifie
 
 [https://github.com/klavinslab/coral](https://github.com/klavinslab/coral) - Coral, a library and framework for specifying synthetic biology design processes
 
-[https://github.com/VoigtLab/dnaplotlib](https://github.com/VoigtLab/dnaplotlib) - A tool to visualize gene circuits (not used in the notebooks above)
+[https://github.com/VoigtLab/dnaplotlib](https://github.com/VoigtLab/dnaplotlib) - A tool to visualize gene circuits
 
 [https://github.com/jstjohn/SeqPrep.git](https://github.com/jstjohn/SeqPrep.git) - A tool to prepare NGS fasta files (not used in the notebooks above)
 

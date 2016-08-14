@@ -1,2 +1,2 @@
-coral
+coral==0.4.3
 biopython
